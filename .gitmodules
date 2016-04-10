@@ -1,0 +1,9 @@
+[submodule "ui"]
+	path = ui
+	url = git@github.com:alternative-vote/ui.git
+[submodule "server"]
+	path = server
+	url = git@github.com:alternative-vote/server.git
+[submodule "kafka"]
+	path = kafka
+	url = git@github.com:alternative-vote/kafka.git
