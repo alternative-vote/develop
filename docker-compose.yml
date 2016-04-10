@@ -1,0 +1,14 @@
+version : '2'
+
+services :
+  ui :
+    build : ./ui
+    image : alternative-vote/ui
+    volumes:
+      - ./ui/src:/usr/local/ui/src
+    ports :
+      - "8000:8000"
+  server :
+    build : ./server
+    image : alternative-vote/server
+
